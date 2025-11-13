@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="media/favicon.png">
     <script src="js/script.js"></script>
@@ -13,14 +12,14 @@
 <body>
     <header class="header">
         <nav class="nav" id="nav">
-            <a href="#home"><img src="media/logo2.png" class="logo"></a>
+            <a href="#home"><img src="media/logo2 (2).png" class="logo"></a>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">Tentang Kami</a></li>
-                <li><a href="#product" class="nav-link">Product</a></li>
-                <li><a href="#testimonials" class="nav-link">Testimoni</a></li>
-                <li><a href="#contact" class="nav-link">Kontak</a></li>
-            </ul>   
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT US</a></li>
+                <li><a href="#product" class="nav-link">PACKAGE</a></li>
+                <li><a href="#testimonials" class="nav-link">SHOP</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT US</a></li>
+            </ul>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
@@ -30,17 +29,45 @@
     </header>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Telang Laras</h2>
-            <p>Laras Urip Saka Telang Brubuh</p>
-            <a href="#about" class="cta-button">Discover More</a>
+        <div class="hero-container">
+            <article class="hero-logo"></article>
         </div>
     </section>
 
+
     <section id="about" class="section about">
         <div class="container">
-            <h2>Tentang Kami</h2>
-            <p>Minuman Mantap dari kami, menyehatkan pikiran</p>
+            <div class="about-top">
+                <div class="about-image">
+                    <img src="media/about1.jpeg" alt="TelangLaras space">
+                </div>
+
+                <div class="about-text">
+                    <h2>Mengenal TelangLaras.id</h2>
+                    <p>
+                    TelangLaras.id merupakan platform wisata edukatif berbasis ekonomi kreatif hasil kolaborasi antara masyarakat Desa Brubuh dan BUMDes Café Kayangan. 
+                    Selain menghadirkan berbagai paket wisata bertema bunga telang yang memadukan rekreasi dan edukasi, TelangLaras.id juga menyediakan fasilitas Café & Space Kayangan, sebuah area nyaman bernuansa alam yang dapat digunakan sebagai tempat bersantai, work from café (WFC), meeting space, maupun co-working area.
+                    </p>
+                </div>
+                </div>
+
+                <!-- Bottom row: 3 cards -->
+                <div class="about-areas">
+                <article class="area-card area-outdoor">
+                    <span class="area-badge">01</span>
+                    <h3>Outdoor Area</h3>
+                </article>
+
+                <article class="area-card area-indoor">
+                    <span class="area-badge">02</span>
+                    <h3>Indoor Area</h3>
+                </article>
+
+                <article class="area-card area-playground">
+                    <span class="area-badge">03</span>
+                    <h3>Playground</h3>
+                </article>
+                </div>
         </div>
     </section>
 
