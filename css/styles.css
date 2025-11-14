@@ -357,6 +357,7 @@ header {
 /* Section Contact */
 .contact {
   padding: 4rem 0;
+  height: 60vh;
 }
 
 .contact-container {
