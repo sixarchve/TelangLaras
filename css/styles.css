@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
-  color: #b0a7be;
+  color: #8a7cb0;
   background-color: #fff;
   overflow-x: hidden;
 }
@@ -22,7 +22,7 @@ header {
   height: 100px;
   position: fixed;
   background-color: #f9f9f9;
-  color: #b0a7be;
+  color: #8a7cb0;
   padding: 10px;
   position: fixed;
   width: 100%;
@@ -68,12 +68,12 @@ header {
 }
 
 .nav-link:hover {
-  color: #b0a7be;
+  color: #8a7cb0;
 }
 
 .nav-link-contact {
   color: white;
-  background-color: #b0a7be;
+  background-color: #8a7cb0;
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 1px;
@@ -169,14 +169,14 @@ header {
 /* Start of Additional Section of Main Page */
 /* Default Param */
 .section {
-  padding: 5rem 0;
+  padding-top: 5rem;
   height: 100vh;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 5%;
+  padding: 2rem auto;
 }
 
 /* about */
@@ -282,7 +282,7 @@ header {
 /* Section Product */
 .product {
   background-color: #d1c6dd;
-  padding: 4rem 0;
+  padding-top: 4rem;
 }
 
 .product h2 {
@@ -305,7 +305,6 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
-  justify-items: center;
 }
 
 .card-link {
@@ -323,7 +322,6 @@ header {
   display: flex;
   flex-direction: column;
   background: #ffffff;
-  border-radius: 16px;
   padding: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -334,7 +332,6 @@ header {
   width: 100%;
   height: 250px;
   object-fit: cover;
-  border-radius: 12px;
   margin-bottom: 1rem;
 }
 
@@ -414,5 +411,61 @@ header {
 
 .visit-btn:hover {
   background: #2e2c70;
+  transform: translateY(-3px);
+}
+
+.bliss-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* LEFT SIDE IMAGE COLLAGE */
+.bliss-left {
+  background-image: url("../media/outdoor.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 2;
+  height: 100%;
+}
+
+/* RIGHT SIDE TEXT BLOCK */
+.bliss-right {
+  flex: 1;
+  color: #6b6056;
+  font-family: "Poppins", serif;
+  text-align: center;
+}
+
+.bliss-right h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: 600; 
+}
+
+.bliss-right p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+/* BUTTON */
+.reserve-btn {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  padding: 12px 40px;
+  background: #b1a37d;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.reserve-btn:hover {
+  background: #9a8c67;
   transform: translateY(-3px);
 }
